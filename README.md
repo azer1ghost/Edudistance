@@ -7,4 +7,4 @@ Bu sayt dinamikdir. Saytın görünüşü vaxt-aşırı dəyişə bilər.
 
 Hi! This is readme file of **Edudisatance MMC**. This is source code of Upper.az website.
 
-![Upper.az site srceenshot image](https://raw.githubusercontent.com/azer1ghost/edudisatance/master/screencapture.png)
+![Upper.az site srceenshot image](https://raw.githubusercontent.com/azer1ghost/Edudisatance/master/screencapture.png)
