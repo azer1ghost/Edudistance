@@ -1,0 +1,15 @@
+RewriteEngine On
+
+ErrorDocument 404 /errordocs/404.php
+
+RewriteRule ^pages/([0-9a-zA-Z-_]+)/([0-9]+)$ pages.php?page_name=$1&page_id=$2 [L,QSA]
+RewriteRule ^posts/([0-9a-zA-Z-_]+)/([0-9]+)$ post.php?post_name=$1&post_id=$2 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L]
+
+RewriteRule ^files/?$ - [F]
+RewriteRule ^images/?$ - [F]
+RewriteRule ^updates/?$ - [F]
+RewriteRule ^cms/?$ - [F]

@@ -1,0 +1,45 @@
+<?php
+
+  $NOTES = array(
+
+
+    array("Update 0.8.362","
+    <ul>
+      <li>1. New design added</li>
+      <li>2. Updates section designed</li>
+      <li>3. Added new controller for *Navbar
+        <ul>
+          <li>Font weight changer </li>
+          <li>Mouse on hover font color changer </li>
+          <li>Mouse on hover background color changer </li>
+        </ul>
+      </li>
+      <li>4. LockScreen bug fixed</li>
+      <li>5. Change Gallery supported file types all to img files</li>
+      <li>6. Logo of Redactive added</li>
+      <li>7. Update engine upgrating</li>
+      <li>8. Homepage was tidy up.</li>
+      <li>9. Copyright supporting</li>
+      <li>10. Content editor icons problem fixed</li>
+      <li>11. App engine boosted</li>
+      <li>12. Some bugs fixed</li>
+      <li>13. Css minifi</li>
+      <li>14. Jquery cdn links update</li>
+      <li>15. Mobile support for app</li>
+      <li>16. Navication bar 'blank' problem fixed</li>
+      <li>17. Navication bar mobile landspace bug fixed</li>
+      <li>18. Custom 404 not found page</li>
+      <li>19. Blog demo version is ready for test</li>
+      <li>20. Content editor font size support</li>
+    </ul>
+
+    "),
+
+
+    array("Update 0.7","no data"),
+    array("Update 0.5","no data"),
+
+
+  );
+
+?>

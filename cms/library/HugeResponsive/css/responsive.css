@@ -1,0 +1,59 @@
+/* Extra small devices (phones, less than 768px) */
+@media (max-width : 766px) {
+	/*navigation*/
+	.navbar-brand {padding: 5px 15px;}
+	.navbar-default {background-color: #000;}
+	.carousel-text h1 {font-size: 60px; line-height: 60px;}
+	/*Core Feature Home page*/
+	.core-feature-slider {margin-bottom: 30px;}
+	.core-feature-slider .flex-control-thumbs li {width: 27px;}
+	/*About Page*/
+	.testimonialSlider .flex-control-thumbs li {margin: 0 4px;}
+	/*Services Page*/
+	.parallax-content h2 {letter-spacing: 2px;}
+	/*Portfolio Three Column*/
+	.portfolio-section .three-column .portfolio-thumb{min-height: 190px;}
+	/*Portfolio Two Column*/
+	.portfolio-section .two-column .portfolio-thumb{min-height: 190px;}
+}
+/* Landscape Mobile */
+@media only screen and (min-width : 480px) and (max-width : 767px) {
+	/*Core Feature Home page*/
+	.core-feature-slider .flex-control-thumbs li {width: 50px;}
+	/*Portfolio Three Column*/
+	.portfolio-section .three-column .portfolio-thumb{min-height: 250px;}
+	/*Portfolio Two Column*/
+	.portfolio-section .two-column .portfolio-thumb{min-height: 300px;}
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width : 768px) and (max-width : 991px) {
+	/*navigation*/
+	.main-nav {margin-right: 10px !important; padding-right: 10px;}
+	.navbar-nav>li>a {padding: 30px 8px;}
+	.sticky-nav .navbar-nav>li>a {padding: 20px 8px;}
+	.navbar-brand {padding: 20px 10px 20px 15px;}
+	.sticky-nav .navbar-brand {padding: 10px 10px 10px 15px;}
+	/*Core Feature Home page*/
+	.core-feature-slider {margin-bottom: 30px;}
+	/*About Page*/
+	.testimonialSlider .flex-control-thumbs li {margin: 0 4px;}
+	/*Portfolio Three Column*/
+	.portfolio-section .three-column .portfolio-thumb{min-height: 200px;}
+	/*Portfolio Two Column*/
+	.portfolio-section .two-column .portfolio-thumb{min-height: 240px;}
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width : 992px) and (max-width : 1199px) {
+	/*navigation*/
+	.main-nav {padding-right: 40px;}
+	.navbar-nav>li>a {padding: 30px 15px;}
+	/*Core Feature Home page*/
+	.core-feature-slider .flex-control-thumbs li {width: 53px;}
+	.core-feature .section-intro {margin-bottom: 15px;}
+	/*About Page*/
+	.testimonialSlider .flex-control-thumbs li {margin: 0 5px;}
+	/*Portfolio Three Column*/
+	.portfolio-section .three-column .portfolio-thumb{min-height: 200px;}
+	/*Portfolio Two Column*/
+	.portfolio-section .two-column .portfolio-thumb{min-height: 320px;}
+}

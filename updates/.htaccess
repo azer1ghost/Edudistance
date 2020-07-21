@@ -1,0 +1,4 @@
+AuthUserFile C:/AppServ/www/mycsm/updates/.htpasswd
+AuthType Basic
+AuthName "My Secret Folder"
+Require valid-user
